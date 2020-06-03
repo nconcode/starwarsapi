@@ -15,13 +15,13 @@ class App extends Component {
 
 componentDidMount() {
 		const urls = [
-			'https://swapi.co/api/people/',
-			'https://swapi.co/api/people/?page=2', 
-			'https://swapi.co/api/people/?page=3',
-			'https://swapi.co/api/people/?page=4',
-			'https://swapi.co/api/people/?page=5',
-			'https://swapi.co/api/people/?page=6',
-			'https://swapi.co/api/people/?page=7'
+			'https://swapi.dev/api/people/',
+			'https://swapi.dev/api/people/?page=2', 
+			'https://swapi.dev/api/people/?page=3',
+			'https://swapi.dev/api/people/?page=4',
+			'https://swapi.dev/api/people/?page=5',
+			'https://swapi.dev/api/people/?page=6',
+			'https://swapi.dev/api/people/?page=7'
 		]
 		
 		Promise.all(urls.map(async url => {
